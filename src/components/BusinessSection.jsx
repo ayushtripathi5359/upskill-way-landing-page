@@ -64,7 +64,7 @@ export default function BusinessSection() {
         {/* Right Image */}
         <div className="flex-1">
           <img
-            src="./src/assets/business.png" // replace with your actual image path
+            src="./src/images/business.png" // replace with your actual image path
             alt="Business Meeting"
             className="rounded-2xl shadow-md"
           />

@@ -47,7 +47,7 @@ export default function ReferEarn() {
 
             {/* Laptop */}
             <img
-              src="./src/assets/laptop.jpg"
+              src="./src/images/laptop.jpg"
               className="w-full h-full object-cover rounded-3xl shadow-[0_10px_40px_rgba(0,0,0,0.15)]"
             />
 
@@ -161,13 +161,13 @@ export default function ReferEarn() {
 
             {/* Headphones */}
             <img
-              src="./src/assets/head.png"
+              src="./src/images/head.png"
               className="w-full h-[380px] object-cover rounded-3xl shadow-lg"
             />
 
             {/* Watch */}
             <img
-              src="./src/assets/watch.png"
+              src="./src/images/watch.png"
               className="w-full z-10 h-[380px] object-cover rounded-3xl shadow-lg"
             />
 
