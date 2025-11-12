@@ -5,7 +5,7 @@ A modern, responsive landing page built using React, Tailwind CSS, and Vite — 
 
 This project emphasizes modular component design, scalable architecture, and smooth user experience with consistent branding and accessibility in mind.
 
-#🚀 Tech Stack
+# 🚀 Tech Stack
 Tool	Purpose
 React 19	UI library for building modular, reusable components.
 Vite	Fast build tool and development server optimized for modern React apps.
