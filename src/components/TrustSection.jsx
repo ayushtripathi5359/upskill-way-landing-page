@@ -35,7 +35,7 @@ export default function TrustSection() {
         {/* ✅ Center Logo */}
         <div className="absolute z-10 w-[250px] h-[250px] bg-[#FFF4E2] rounded-full shadow-lg 
                         border-2 border-[#f7dca4] flex items-center justify-center">
-          <img src="/src/images/logo.png" className="w-[120px] h-auto" alt="Upskillway Logo" />
+          <img src="./public/images/logo.png" className="w-[320px] h-auto" alt="Upskillway Logo" />
         </div>
 
         {/* Cards */}
@@ -129,7 +129,7 @@ export default function TrustSection() {
         <div className="relative w-[280px] h-[280px] mb-10 flex items-center justify-center">
           <div className="absolute w-[220px] h-[220px] bg-[#FCF7EE] rounded-full border border-[#F4EAD0] opacity-60"></div>
           <div className="absolute w-[160px] h-[160px] bg-[#FFF4E2] rounded-full border border-[#f7dca4]"></div>
-          <img src="/src/images/logo.png" className="w-20 z-10" />
+          <img src="./public/images/logo.png" className="w-20 z-10" />
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full max-w-[600px]">

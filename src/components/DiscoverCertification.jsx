@@ -71,7 +71,7 @@ export default function DiscoverCertification() {
                        lg:max-w-[640px] xl:max-w-[700px]"
           >
             <video
-              src="/src/assets/kid-video.mp4"
+              src="./public/videos/kid-video.mp4"
               autoPlay
               loop
               muted
