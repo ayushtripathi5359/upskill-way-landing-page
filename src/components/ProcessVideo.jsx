@@ -26,7 +26,7 @@ export default function ProcessVideo() {
         <div className="relative w-full aspect-[18/9] sm:aspect-[13/8] md:aspect-[14/7] lg:aspect-[8/4]">
           <video
             className="absolute inset-0 w-full h-full object-cover block"
-            src="./public/videos/process.mp4"
+            src=" videos/process.mp4"
             autoPlay
             muted
             loop

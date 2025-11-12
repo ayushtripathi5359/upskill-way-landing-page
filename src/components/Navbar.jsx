@@ -12,7 +12,7 @@ export default function Navbar({ navItems }) {
         <div className="flex items-center gap-3">
   <div className="w-54 h-14 bg-white rounded-full flex items-center justify-center shadow-sm">
     <img
-      src="./public/images/logo.png"
+      src=" images/logo.png"
       alt="Upskillway Logo"
       className="w-80 h-80 object-contain"
     />

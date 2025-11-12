@@ -7,7 +7,7 @@ export default function RequestCallback() {
         {/* Illustration */}
         <div className="mb-10">
           <img
-            src="./public/images/callback.png"
+            src=" images/callback.png"
             alt="Request Callback"
             className="mx-auto w-52 sm:w-64 md:w-72 lg:w-80 mb-6"
           />

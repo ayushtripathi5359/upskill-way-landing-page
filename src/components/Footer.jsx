@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
              <div className="w-30 h-30 rounded-xl bg-transparent flex items-center justify-center ">
   <img
-    src="./public/images/logo2.png" // 🔹 apna PNG path yahan daal do
+    src=" images/logo2.png" // 🔹 apna PNG path yahan daal do
     alt="icon"
     className="w-30 object-contain"
   />

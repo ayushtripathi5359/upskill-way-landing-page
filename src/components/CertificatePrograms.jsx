@@ -12,7 +12,7 @@ export default function CertificatePrograms() {
       price: "₹0",
       tag: "Beginner",
       type: "Crush Course",
-      image: "/./public/images/course.jpg",
+      image: "/images/course.jpg",
     },
     {
       title: "The Complete Graphic Design for Beginners",
@@ -23,7 +23,7 @@ export default function CertificatePrograms() {
       price: "₹0",
       tag: "Beginner",
       type: "Crush Course",
-      image: "/./public/images/course.jpg",
+      image: "/images/course.jpg",
     },
     {
       title: "Learning JavaScript With Imagination",
@@ -33,7 +33,7 @@ export default function CertificatePrograms() {
       price: "₹0",
       tag: "Marketing",
       type: "Pro Expert",
-      image: "/./public/images/course.jpg",
+      image: "/images/course.jpg",
     },
     {
       title: "Financial Analyst Training & Investing Course",
@@ -44,7 +44,7 @@ export default function CertificatePrograms() {
       price: "₹0",
       tag: "Financial",
       type: "Crush Course",
-      image: "/./public/images/course.jpg",
+      image: "/images/course.jpg",
     },
   ];
 
@@ -146,7 +146,7 @@ export default function CertificatePrograms() {
       {/* Instructor */}
       <div className="flex items-center gap-2">
         <img
-          src="/public/images/user.png"
+          src=" /images/user.png"
           className="w-7 h-7 rounded-full object-cover"
         />
         <span className="text-gray-700 text-[14px]">{p.instructor}</span>

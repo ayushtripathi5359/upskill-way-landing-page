@@ -7,42 +7,42 @@ export default function ExplorePrograms() {
       rating: 4.8,
       reviews: 6,
       duration: "8 Months",
-      image: "./public/images/data-science.png", // replace with actual path
+      image: " images/data-science.png", // replace with actual path
     },
     {
       title: "Data Science with Specialization",
       rating: 4.8,
       reviews: 6,
       duration: "8 Months",
-      image: "./public/images/data-science.png",
+      image: " images/data-science.png",
     },
     {
       title: "Data Science with Specialization",
       rating: 4.8,
       reviews: 6,
       duration: "8 Months",
-      image: "./public/images/data-science.png",
+      image: " images/data-science.png",
     },
     {
       title: "Data Science with Specialization",
       rating: 4.8,
       reviews: 6,
       duration: "8 Months",
-      image: "./public/images/data-science.png",
+      image: " images/data-science.png",
     },
     {
       title: "Data Science with Specialization",
       rating: 4.8,
       reviews: 6,
       duration: "8 Months",
-      image: "./public/images/data-science.png",
+      image: " images/data-science.png",
     },
     {
       title: "Data Science with Specialization",
       rating: 4.8,
       reviews: 6,
       duration: "8 Months",
-      image: "./public/images/data-science.png",
+      image: " images/data-science.png",
     },
   ];
 
