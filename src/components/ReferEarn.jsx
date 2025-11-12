@@ -49,7 +49,7 @@ export default function ReferEarn() {
 
             {/* Refer Steps */}
             <div className="relative w-full mt-10">
-              {/* ✅ EXACT SVG CURVE */}
+              {/* SVG Curve – hidden on mobile */}
               <svg
                 width="1200"
                 height="250"
@@ -100,9 +100,13 @@ export default function ReferEarn() {
                         : ""
                     }`}
                   >
-                    {/* For Step 1 & 3 */}
+                    {/* ✅ Step 1 & 3: ICON ABOVE TEXT on mobile */}
                     {s.id !== 2 && (
                       <>
+                        <div className="w-14 h-14 bg-black rounded-full flex items-center justify-center shadow-md mb-4 sm:mb-0 sm:order-last">
+                          {s.icon}
+                        </div>
+
                         <p className="text-gray-300 text-5xl font-bold mb-2">
                           {s.id}
                         </p>
@@ -115,7 +119,7 @@ export default function ReferEarn() {
                       </>
                     )}
 
-                    {/* Step 2 */}
+                    {/* ✅ Step 2 (Middle one stays same) */}
                     {s.id === 2 && (
                       <>
                         <div className="w-14 h-14 bg-black rounded-full flex items-center justify-center shadow-md mb-2">
@@ -131,13 +135,6 @@ export default function ReferEarn() {
                           {s.description}
                         </p>
                       </>
-                    )}
-
-                    {/* Icons for Step 1 & 3 */}
-                    {s.id !== 2 && (
-                      <div className="w-14 h-14 bg-black rounded-full flex items-center justify-center shadow-md mt-4">
-                        {s.icon}
-                      </div>
                     )}
                   </div>
                 ))}
